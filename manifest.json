@@ -1,0 +1,30 @@
+{
+  "name": "DistractBlock",
+  "description": "Temporarily block websites - *** STUDY AID ***",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon" : "img/icons/not_active_32.png"
+  },
+  "background": {"scripts":["jquery.js","background.js"]},
+
+  "icons": { "32": "img/icons/active_32.png",
+             "64": "img/icons/active_64.png",
+             "128": "img/icons/active_128.png" },
+
+  "web_accessible_resources": [
+   "blocked.html"
+ ],
+
+
+
+  "permissions": [
+    "webNavigation",
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "declarativeContent",
+    "storage"
+  ]
+}
