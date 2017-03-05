@@ -1,11 +1,12 @@
 {
   "name": "DistractBlock",
+  "short_name": "DistractBlock",
   "description": "Temporarily block websites - *** STUDY AID ***",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "popup.html",
-    "default_icon" : "img/icons/not_active_32.png"
+    "default_icon" : "img/icons/not_active_64.png"
   },
   "background": {"scripts":["jquery.js","background.js"]},
 
