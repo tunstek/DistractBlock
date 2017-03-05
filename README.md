@@ -1,9 +1,14 @@
+===============
+# DistractBlock
+===============
+Study Aid Extension for Chrome
 
+==============================
 
 ISSUES:
 ======
 * Text flashes when it refreshes for the intervals - seems to be fixed?
-- This is ironically distracting..
+-- This is ironically distracting..
 
 * If a site is blocked by both the single block and the list it is counted as 2 sites
 
